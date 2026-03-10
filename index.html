@@ -192,7 +192,7 @@
             const positions = particles.geometry.attributes.position.array;
 
             // --- FORMACIÓN MUCHO MÁS LENTA (Pedida) ---
-            const formationSpeed = 0.007; 
+            const formationSpeed = 0.005; 
 
             for (let i = 0; i < particleCount * 3; i++) {
                 const distancia = targetPositions[i] - positions[i];
@@ -216,6 +216,7 @@
 </body>
 
 </html>
+
 
 
 
